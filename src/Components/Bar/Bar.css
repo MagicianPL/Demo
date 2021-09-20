@@ -1,4 +1,4 @@
-.bar {
+.container-bar {
   width: 100%;
   min-height: 9.2rem;
   border: 1px solid red;
@@ -7,7 +7,27 @@
 .b-top {
   height: calc(9.2rem - 32px);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.b-top img {
+  height: 2.15rem;
+}
+
+.b-top .tools {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.tools .icon {
+  height: 2.98rem;
+}
+
+.tools .icon:first-child {
+  height: 1.5rem;
 }
 
 .b-bottom {
