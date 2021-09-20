@@ -2,6 +2,13 @@ html {
   font-size: 62.5%;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: Metropolis;
+}
+
+* {
   box-sizing: border-box;
 }
 
@@ -11,4 +18,9 @@ html {
   max-width: 414px;
   min-height: 966px;
   margin: 2rem auto;
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url("Metropolis-Regular.otf") format("opentype");
 }
