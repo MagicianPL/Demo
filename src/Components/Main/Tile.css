@@ -1,0 +1,47 @@
+.tile {
+  max-width: 17.6rem;
+}
+
+.tile .flex-container {
+  display: flex;
+  height: 9.3rem;
+}
+
+.tile .thumbnail {
+  height: 100%;
+  width: 9.3rem;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.tile .tile-icons {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tile-icons img {
+  height: 1.95rem;
+  width: 1.85rem;
+}
+
+.tile-icons img:last-child {
+  height: 1.45rem;
+  width: 1.65rem;
+}
+
+.tile-title {
+  margin-top: 24px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.tile .desc {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #c1c1c1;
+  margin-top: 8px;
+}

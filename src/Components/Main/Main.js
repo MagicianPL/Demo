@@ -1,5 +1,6 @@
 import React from "react";
 import Menu from "./Menu";
+import TilesContent from "./TilesContent";
 
 import "./Main.css";
 import arrow from "./arrow.png";
@@ -19,6 +20,7 @@ const Main = () => {
         </button>
       </div>
       <Menu />
+      <TilesContent />
     </main>
   );
 };
