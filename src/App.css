@@ -2,6 +2,12 @@ html {
   font-size: 62.5%;
 }
 
+@media (max-width: 390px) {
+  html {
+    font-size: 50%;
+  }
+}
+
 @media (min-width: 600px) {
   html {
     font-size: 68%;

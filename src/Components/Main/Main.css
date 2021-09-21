@@ -8,8 +8,26 @@ h1 {
   margin-bottom: 2.4rem;
 }
 
+@media (min-width: 1600px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+main .inputs {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 310px) {
+  main .inputs {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media (min-width: 600px) {
-  .flex-container {
+  main .inputs {
     display: flex;
     justify-content: space-around;
   }
@@ -32,6 +50,12 @@ h1 {
   background-position-x: 20.4rem;
   background-size: 12px 12px;
   margin-right: 0.8rem;
+}
+
+@media (max-width: 310px) {
+  .search {
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 1300px) {

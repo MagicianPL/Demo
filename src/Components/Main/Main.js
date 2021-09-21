@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <main>
       <h1>Zapisane kursy</h1>
-      <div className="flex-container">
+      <div className="flex-container inputs">
         <input
           className="search"
           type="text"
