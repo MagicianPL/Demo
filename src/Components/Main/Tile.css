@@ -36,6 +36,12 @@
   position: relative;
 }
 
+@media (max-width: 300px) {
+  .tile .tile-icons {
+    align-items: flex-end;
+  }
+}
+
 .tile .tile-icons::after {
   content: "";
   position: absolute;
