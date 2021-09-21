@@ -1,7 +1,6 @@
 .container-bar {
   width: 100%;
   min-height: 9.2rem;
-  border: 1px solid red;
 }
 
 .b-top {
@@ -24,6 +23,7 @@
 
 .tools .icon {
   height: 2.98rem;
+  cursor: pointer;
 }
 
 .tools .icon:first-child {
@@ -35,7 +35,7 @@
   background-color: #f4f4f4;
 }
 
-ul {
+.b-bottom ul {
   padding: 0;
   margin: 0;
   height: 100%;
@@ -45,4 +45,17 @@ ul {
   font-size: 1.4rem;
   list-style: none;
   font-weight: 600;
+  color: #131330;
+}
+
+.b-bottom li:hover {
+  cursor: pointer;
+}
+
+.b-bottom ul li:last-child {
+  color: #c1c1c1;
+}
+
+.b-bottom ul li:last-child:hover {
+  color: #131330;
 }

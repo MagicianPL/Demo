@@ -1,4 +1,5 @@
 import React from "react";
+import Menu from "./Menu";
 
 import "./Main.css";
 import arrow from "./arrow.png";
@@ -17,6 +18,7 @@ const Main = () => {
           Poziom <img src={arrow} alt="arrow" />
         </button>
       </div>
+      <Menu />
     </main>
   );
 };

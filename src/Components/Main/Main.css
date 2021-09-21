@@ -47,6 +47,10 @@ h1 {
   justify-content: space-around;
 }
 
+.level:hover {
+  cursor: pointer;
+}
+
 .level > img {
   width: 2.2rem;
   height: 2.2rem;
