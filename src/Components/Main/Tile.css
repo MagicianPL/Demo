@@ -21,6 +21,17 @@
   flex: 1;
   align-items: center;
   justify-content: space-around;
+  position: relative;
+}
+
+.tile .tile-icons::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.45rem;
+  height: 1px;
+  border-top: 2px solid #f0f0f0;
 }
 
 .tile-icons img {
