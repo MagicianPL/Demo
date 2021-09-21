@@ -6,3 +6,9 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+@media (min-width: 600px) {
+  .tiles-content-container {
+    gap: 30px;
+  }
+}
