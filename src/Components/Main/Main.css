@@ -34,6 +34,12 @@ h1 {
   margin-right: 0.8rem;
 }
 
+@media (min-width: 1300px) {
+  .search {
+    font-size: 16px;
+  }
+}
+
 .level {
   width: 11.8rem;
   max-width: 100%;

@@ -8,6 +8,30 @@ html {
   }
 }
 
+@media (min-width: 850px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media (min-width: 1300px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 100%;
+  }
+}
+
 body {
   font-family: Metropolis;
 }

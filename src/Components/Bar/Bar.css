@@ -4,14 +4,27 @@
 }
 
 .b-top {
-  height: calc(9.2rem - 32px);
+  min-height: calc(9.2rem - 32px);
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+@media (min-width: 1300px) {
+  .b-top {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+}
+
 .b-top img {
   height: 2.15rem;
+}
+
+@media (min-width: 1300px) {
+  .b-top img {
+    height: 4.15rem;
+  }
 }
 
 .b-top .tools {
@@ -19,6 +32,13 @@
   display: flex;
   align-items: center;
   gap: 2.5rem;
+}
+
+@media (min-width: 1300px) {
+  .b-top .tools {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
 }
 
 .tools .icon {
