@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/MagicianPL/Demo/static/css/main.e2cefd93.chunk.css",
+    "main.js": "/MagicianPL/Demo/static/js/main.6e370a18.chunk.js",
+    "main.js.map": "/MagicianPL/Demo/static/js/main.6e370a18.chunk.js.map",
+    "runtime-main.js": "/MagicianPL/Demo/static/js/runtime-main.09bca727.js",
+    "runtime-main.js.map": "/MagicianPL/Demo/static/js/runtime-main.09bca727.js.map",
+    "static/js/2.7f45441c.chunk.js": "/MagicianPL/Demo/static/js/2.7f45441c.chunk.js",
+    "static/js/2.7f45441c.chunk.js.map": "/MagicianPL/Demo/static/js/2.7f45441c.chunk.js.map",
+    "static/js/3.56e5fc9a.chunk.js": "/MagicianPL/Demo/static/js/3.56e5fc9a.chunk.js",
+    "static/js/3.56e5fc9a.chunk.js.map": "/MagicianPL/Demo/static/js/3.56e5fc9a.chunk.js.map",
+    "index.html": "/MagicianPL/Demo/index.html",
+    "static/css/main.e2cefd93.chunk.css.map": "/MagicianPL/Demo/static/css/main.e2cefd93.chunk.css.map",
+    "static/js/2.7f45441c.chunk.js.LICENSE.txt": "/MagicianPL/Demo/static/js/2.7f45441c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/MagicianPL/Demo/static/media/Metropolis-Regular.67a1988d.otf",
+    "static/media/arrow.485ec834.png": "/MagicianPL/Demo/static/media/arrow.485ec834.png",
+    "static/media/thumbnail1.eb16af00.png": "/MagicianPL/Demo/static/media/thumbnail1.eb16af00.png",
+    "static/media/thumbnail2.8bccd6fd.png": "/MagicianPL/Demo/static/media/thumbnail2.8bccd6fd.png",
+    "static/media/thumbnail3.2c1b718c.png": "/MagicianPL/Demo/static/media/thumbnail3.2c1b718c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09bca727.js",
+    "static/js/2.7f45441c.chunk.js",
+    "static/css/main.e2cefd93.chunk.css",
+    "static/js/main.6e370a18.chunk.js"
+  ]
+}
