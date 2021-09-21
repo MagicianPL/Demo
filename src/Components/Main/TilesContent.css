@@ -1,5 +1,8 @@
 .tiles-content-container {
   width: 100%;
   min-height: 20rem;
-  border: 1px solid red;
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+  justify-content: center;
 }

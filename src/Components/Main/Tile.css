@@ -1,5 +1,12 @@
 .tile {
-  max-width: 17.6rem;
+  flex: 0 0 17.6rem;
+  transition: opacity 0.5s;
+  margin-top: 48px;
+}
+
+.tile:hover {
+  cursor: pointer;
+  opacity: 0.85;
 }
 
 .tile .flex-container {
